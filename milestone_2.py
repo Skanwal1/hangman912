@@ -10,7 +10,7 @@ print("Favourite Fruits List : ", word_list)
 
 print("Random Fruit : " , word)
 
-guess = input("Enter a single letter : ")
+guess = input("Enter a letter : ")
 
 if len(guess) == 1 and guess.isalpha():
     print("Good guess!")
